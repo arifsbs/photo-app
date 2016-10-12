@@ -1,0 +1,1 @@
+This is a Web app to view images returned by the Photo Service.
