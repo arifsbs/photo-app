@@ -11,7 +11,16 @@
 <body>
 	
 <div class="main" ng-controller="imageFunction">
-
+	<ul> 
+	<li class="itemHolder" ng-repeat="image in images">
+	<img ng-src="{{image.media.m}}"></img>
+		<div>
+			<h3> {{image.title }}</h3>
+			<p> published: {{image.published}}</p>
+			<p> author: {{image.author}}</p>
+		</div>
+	</a>
+	</li>
 </div>
 
 </body>
